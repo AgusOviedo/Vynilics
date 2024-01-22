@@ -1,0 +1,391 @@
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  color: #fff;
+  background-color: #181818;
+} */
+
+/* h1 {
+  font-size: 3.5em;
+}
+h2 {
+  font-size: 2.7em;
+}
+h3 {
+  font-size: 2em;
+}
+p {
+  font-size: 1.25em;
+}
+
+
+button {
+  font-size: 0.8em;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid #4bb0da;
+  background-color: #262626;
+  color: white;
+}
+
+button:hover {
+  background-color: #726cee;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+/* header {
+  background-color: #413b3b;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../images/icon-arrow-up.svg);
+}
+
+header .logo a {
+  margin: 0;
+  padding: 25px 30px;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #8e4cb6;
+}
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+/* header nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
+} */
+
+/* header a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(218, 211, 211);
+} */
+
+/* header a:hover {
+  color: #726cee;
+} */
+
+/* #hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/image-hero-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+} */
+
+/* #vynilics-compras {
+  text-align: center;
+  padding: 120px 12px;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(../images/icon-arrow-down.svg);
+}
+
+#vynilics-compras h2 {
+  color: #8e4cb6;
+  padding-bottom: 2rem;
+} */
+
+/* #vynilics-ventajas {
+  text-align: center;
+}
+
+#vynilics-ventajas .container {
+  padding: 50px 0px;
+}
+
+#vynilics-ventajas h2 {
+  margin-top: 0;
+  color: #8e4cb6;
+} */
+
+/* #vynilics-ventajas p {
+  display: none;
+}
+
+#vynilics-ventajas .carta {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 50px;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+.carta:first-child {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/seguridad.png);
+}
+
+.carta:nth-child(2) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/seguridad.jpg);
+}
+
+.carta:last-child {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/vynil.jpg);
+} */
+
+/* footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.social-icon {
+  font-size: 50px;
+  color: #502f8d;
+}
+
+.social-icon:hover {
+  color: #e0ca2d;
+} */
+
+/* CONTACTANOS */
+
+/* ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-wrapper {
+  box-shadow: 0 0 20px 0;
+}
+
+.contact-wrapper > * {
+  padding: 1em;
+}
+
+.contact-form {
+  background: #222121;
+}
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+  display: block;
+}
+
+.contact-form form p {
+  margin: 0;
+  padding: 1em;
+}
+
+.contact-form form .boton {
+  grid-column: 1 / 3;
+}
+
+button,
+input,
+textarea {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  outline: 0;
+  color: #fff;
+  border-bottom: 1px solid #8e4cb6;
+}
+
+.contact-form form button {
+  background: #1a1919;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.contact-form form button:hover {
+  background-color: #8c3fbd;
+  color: #4bb0da;
+}
+
+/* CONTACT INFO */
+/*.contact-info {
+  background: #2e2c2c;
+}
+
+h4,
+ul,
+p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}*/
+
+/*#vynilics-galeria {
+  text-align: center;
+  color: #502f8d;
+}
+
+.productos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 3rem;
+  gap: 2rem;
+}
+
+.imagen-producto {
+  max-width: 100%;
+  border-radius: 1rem;
+}
+
+.descripcion {
+  background-color: #222121;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.agregar {
+  border: 0;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.precio {
+  color: #4bb0da;
+} */
+/* OFERTA */
+
+/*#vynilics-oferta {
+  text-align: center;
+  color: #502f8d;
+}
+
+.productos-oferta {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.precio-oferta {
+  color: #4bb0da;
+  text-decoration: line-through;
+}*/
+
+/* INDICE */
+
+/* #indices {
+  text-align: center;
+  color: #502f8d;
+  margin-top: 2rem;
+}
+
+.img-indices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#indices img:hover {
+  max-width: 100%;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: 0s;
+  transition-timing-function: ease;
+}
+
+#indices img {
+  border-radius: 15px;
+  max-width: 80%;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: 0s;
+  transition-timing-function: ease;
+}*/
+
+@media (min-width: 900px) {
+  /*header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+  }
+
+  #hero {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/image-hero-desktop.png);
+    height: 100vh;
+  }
+
+  #vynilics-ventajas .cartas {
+    display: flex;
+    justify-content: center;
+  }
+
+  #vynilics-ventajas p {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  #vynilics-ventajas h3 {
+    margin-top: 0;
+  }
+
+  #vynilics-ventajas .carta {
+    padding: 15px;
+  }*/
+
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .contact-wrapper > * {
+    padding: 2em;
+  }
+  h4,
+  ul,
+  p {
+    text-align: left;
+  }
+
+  .productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .productos-oferta {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  #indices img {
+    max-width: 50%;
+    cursor: pointer;
+  }
+}

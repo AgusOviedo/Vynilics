@@ -1,0 +1,81 @@
+@media (min-width: 900px) {
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+
+    a:hover {
+      color: #726cee;
+    }
+
+    nav {
+      flex-direction: row;
+      padding-bottom: 0;
+      padding-right: 20px;
+    }
+  }
+
+  #hero {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/image-hero-desktop.png);
+    height: 100vh;
+  }
+
+  #vynilics-ventajas .cartas {
+    display: flex;
+    justify-content: center;
+
+    .carta {
+      padding: 15px;
+      p {
+        display: block;
+        margin-bottom: 30px;
+      }
+
+      h3 {
+        margin-top: 0;
+      }
+    }
+  }
+
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+    > * {
+      padding: 2em;
+    }
+
+    .contact-form {
+      h3 {
+        text-align: center;
+        color: #726cee;
+      }
+    }
+
+    .contact-info {
+      h4,
+      ul,
+      p {
+        text-align: left;
+      }
+    }
+  }
+
+  #vynilics-galeria {
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  #vynilics-oferta {
+    .productos-oferta {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  #indices img {
+    max-width: 50%;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,30 @@
+#indices {
+  text-align: center;
+  color: #502f8d;
+  margin-top: 2rem;
+  
+  .img-indices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+
+    img {
+      border-radius: 15px;
+      max-width: 70%;
+      transition-property: all;
+      transition-duration: 1s;
+      transition-delay: 0s;
+      transition-timing-function: ease;
+
+      &:hover {
+        border-radius: 15px;
+        max-width: 100%;
+        transition-property: all;
+        transition-duration: 1s;
+        transition-delay: 0s;
+        transition-timing-function: ease;
+      }
+    }
+  }
+}

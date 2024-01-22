@@ -1,0 +1,12 @@
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/image-hero-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}

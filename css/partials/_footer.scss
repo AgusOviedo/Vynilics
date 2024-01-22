@@ -1,0 +1,21 @@
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+  .container-footer {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+
+    .social-icon {
+      font-size: 50px;
+      color: #502f8d;
+
+      &:hover {
+        color: $color_8;
+      }
+    }
+  }
+}
